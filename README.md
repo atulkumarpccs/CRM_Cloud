@@ -24,8 +24,10 @@ Automate Configuration and State Management processes via Ansible.
    * Adhoc command against the remote host
    * Adhoc command are added in the text file to make life easy
    * Added the ping_prompts.yml file & acnb be rub by 'ansible-playbook ping_prompts.yml -i <Public Ip Address>,'
-   *Windowds ping play book can be seen here & can be run by '''ansible all -i <Public Ip Address>, -m win_ping 
--e "ansible_user=ansible ansible_password=<Password> ansible_winrm_server_cert_validation=ignore ansible_connection=winrm" '''
+   * Windowds ping play book can be seen here & can be run by 
+
+   ''' ansible all -i <Public Ip Address>, -m win_ping 
+     -e "ansible_user=ansible ansible_password=<Password> ansible_winrm_server_cert_validation=ignore ansible_connection=winrm" '''
 
 Step 4 : Configuration an Nginx web server
 
