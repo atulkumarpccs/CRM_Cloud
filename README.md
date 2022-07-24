@@ -52,10 +52,16 @@ Step 5[Optional] : Configuration an Windows IIS web server
 # Dynamic Inventories for Scaling
 
 # Build a CI \ CD pipeline for Ansible with Github Actions
-  Source >>As repo is part of git so can be tracked what has chnaged 
-  Build >> Build runs scripts when changes are checked 
-  Testing >> Build & etsting are part of CI and here Lint , Unit & integation 
-  Release >>It is the final step 
+  * Source >>As repo is part of git so can be tracked what has chnaged 
+  * Build >> Build runs scripts when changes are checked 
+  * Testing >> Build & etsting are part of CI and here Lint , Unit & integation 
+  * Release >>It is the final step 
+  
+  
+# Refrence link 
+
+* <https://github.com/marketplace/actions/ansible-lint> 
+* <https://docs.github.com/en/actions/security-guides/encrypted-secrets>
   
 
   
